@@ -1,0 +1,36 @@
+export const intToRomanTestCases = [
+  { name: '#1', num: 3749, expectedOutput: 'MMMDCCXLIX' },
+  { name: '#2', num: 58, expectedOutput: 'LVIII' },
+  { name: '#3', num: 1994, expectedOutput: 'MCMXCIV' },
+  { name: '#4', num: 0, expectedOutput: '' },
+  { name: '#5', num: 1, expectedOutput: 'I' },
+  { name: '#6', num: 5, expectedOutput: 'V' },
+  { name: '#7', num: 10, expectedOutput: 'X' },
+  { name: '#8', num: 50, expectedOutput: 'L' },
+  { name: '#9', num: 100, expectedOutput: 'C' },
+  { name: '#10', num: 500, expectedOutput: 'D' },
+  { name: '#11', num: 1000, expectedOutput: 'M' },
+  { name: '#12', num: 4, expectedOutput: 'IV' },
+  { name: '#13', num: 9, expectedOutput: 'IX' },
+  { name: '#14', num: 40, expectedOutput: 'XL' },
+  { name: '#15', num: 90, expectedOutput: 'XC' },
+  { name: '#16', num: 400, expectedOutput: 'CD' },
+  { name: '#17', num: 900, expectedOutput: 'CM' },
+  { name: '#18', num: 3, expectedOutput: 'III' },
+  { name: '#19', num: 8, expectedOutput: 'VIII' },
+  { name: '#20', num: 13, expectedOutput: 'XIII' },
+  { name: '#21', num: 38, expectedOutput: 'XXXVIII' },
+  { name: '#22', num: 88, expectedOutput: 'LXXXVIII' },
+  { name: '#23', num: 808, expectedOutput: 'DCCCVIII' },
+  { name: '#24', num: 888, expectedOutput: 'DCCCLXXXVIII' },
+  { name: '#25', num: 14, expectedOutput: 'XIV' },
+  { name: '#26', num: 19, expectedOutput: 'XIX' },
+  { name: '#27', num: 49, expectedOutput: 'XLIX' },
+  { name: '#28', num: 409, expectedOutput: 'CDIX' },
+  { name: '#29', num: 999, expectedOutput: 'CMXCIX' },
+  { name: '#30', num: 3999, expectedOutput: 'MMMCMXCIX' },
+]as {
+  name: string;
+  num: number;
+  expectedOutput: string;
+}[];
