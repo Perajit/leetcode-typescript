@@ -1,0 +1,32 @@
+export const romanToIntTestCases = [
+  { s: '', expectedOutput: 0 },
+  { s: 'I', expectedOutput: 1 },
+  { s: 'V', expectedOutput: 5 },
+  { s: 'X', expectedOutput: 10 },
+  { s: 'L', expectedOutput: 50 },
+  { s: 'C', expectedOutput: 100 },
+  { s: 'D', expectedOutput: 500 },
+  { s: 'M', expectedOutput: 1000 },
+  { s: 'IV', expectedOutput: 4 },
+  { s: 'IX', expectedOutput: 9 },
+  { s: 'XL', expectedOutput: 40 },
+  { s: 'XC', expectedOutput: 90 },
+  { s: 'CD', expectedOutput: 400 },
+  { s: 'CM', expectedOutput: 900 },
+  { s: 'III', expectedOutput: 3 },
+  { s: 'VIII', expectedOutput: 8 },
+  { s: 'XIII', expectedOutput: 13 },
+  { s: 'XXXVIII', expectedOutput: 38 },
+  { s: 'LXXXVIII', expectedOutput: 88 },
+  { s: 'DCCCVIII', expectedOutput: 808 },
+  { s: 'DCCCLXXXVIII', expectedOutput: 888 },
+  { s: 'XIV', expectedOutput: 14 },
+  { s: 'XIX', expectedOutput: 19 },
+  { s: 'XLIX', expectedOutput: 49 },
+  { s: 'CDIX', expectedOutput: 409 },
+  { s: 'CMXCIX', expectedOutput: 999 },
+  { s: 'MMMCMXCIX', expectedOutput: 3999 },
+] as {
+  s: string;
+  expectedOutput: number;
+}[];
